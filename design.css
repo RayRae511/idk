@@ -1,0 +1,91 @@
+body{
+    background-color: #251111;
+    font-family: 'Roboto', sans-serif;
+}
+
+ h1{
+    color: #c44817;
+    font-family: 'Monserrat', sans-serif;
+ }
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* header styles */
+header {
+display: flex;
+background-color: rgb(161, 69, 15);
+justify-content: space-between;
+box-shadow: 0 2px 4px rgb(12, 12, 12);
+padding: 10px;
+}
+nav{
+    margin: 10px;
+    outline-style: double;
+    color: rgb(141, 58, 16);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+.links{
+    text-align: end;
+    text-indent: 10px;
+    outline-color: rgb(189, 83, 17);
+    display: flex;
+    justify-items: flex-start;
+}
+
+nav a {
+    color: rgb(255, 251, 249);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav a:hover{
+    color: rgb(226, 107, 9);
+}
+
+.scroll {
+    white-space: nowrap;
+    overflow: auto;
+    image-resolution: 1080px;
+    background-color: rgb(253, 249, 247);
+    padding: 20px;   
+}
+
+.scroll img{
+    height: 480px;
+    width: 400px;
+
+}
+
+.footer{
+    margin: auto;
+}
+h2{
+    color: #d15d0f;
+    font-family: Monsterrat sans-serif;
+}
+.pee style {
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.para{
+    background-color: rgb(211, 115, 20);
+    font-size: larger;
+    font-family: ;
+}
+.head{
+    font-size: larger;
+}
+.art{
+    background-color: #c44817;
+}
